@@ -1,0 +1,10 @@
+.letter_wrapper {
+  border: 2px;
+  text-align: center;
+  margin-bottom: 2px;
+  border: 1px black;
+}
+.alphabet_container {
+  width: 100px;
+  background-color: red;
+}
