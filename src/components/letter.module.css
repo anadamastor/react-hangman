@@ -1,10 +1,22 @@
 .letter_wrapper {
-  border: 2px;
   text-align: center;
-  margin-bottom: 2px;
-  border: 1px black;
+  width: 5rem;
+  cursor: pointer;
+  border: 2px solid black;
+  margin-bottom: 0.5rem;
+}
+.letter_wrapper:hover {
+  border-color: rgb(246, 0, 226);
+  background-color: aquamarine;
 }
 .alphabet_container {
-  width: 100px;
-  background-color: red;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.alphabet_container::after {
+  content: "";
+  flex: auto;
 }

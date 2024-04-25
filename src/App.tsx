@@ -6,10 +6,10 @@ function App() {
     const randomIndex = Math.floor(Math.random() * wordList.length);
     return wordList[randomIndex];
   });
-  const [guessedLetters, setGuessedLetters] = useState<string[]>([]);
+  console.log("word to guess:", wordToGuess);
 
   const alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
-  return Letters(alphabet);
+  return Letters({ alphabet });
 }
 
 export default App;
